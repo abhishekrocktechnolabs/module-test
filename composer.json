@@ -1,0 +1,23 @@
+{
+    "name": "abhishek/custom-module",
+    "description": "",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Abhishek Kothari",
+            "email": "abhishek.kothari@sigmainfo.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Abhishek\\Custommodue\\": ""
+        }
+    }
+}
